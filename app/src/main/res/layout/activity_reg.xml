@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="REGISTER"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="64sp" />
+
+        <EditText
+            android:id="@+id/editRegId"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:hint="Enter your id"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/editRegEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your Email"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/editRegPw"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:hint="Enter your password"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>
